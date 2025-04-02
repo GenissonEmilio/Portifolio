@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 const NavBar = () => {
+
+    const [name, setName] = useState<string>("");
+
     return (
         <div>
             <ul>
