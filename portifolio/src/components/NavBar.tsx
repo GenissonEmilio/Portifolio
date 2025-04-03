@@ -1,8 +1,8 @@
-import { useState } from "react";
+//import { useState } from "react";
 
 const NavBar = () => {
 
-    const [name, setName] = useState<string>("");
+    //const [name, setName] = useState<string>("");
 
     return (
         <div>
