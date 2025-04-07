@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.links {
+    display: none;
+    list-style: none;   
+    width: 100%;
+    gap: 2rem;
+    margin-right: 2rem;
+    justify-content: flex-end;
+}
+
+.links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.name {
+    text-align: center;
+}
+
+.name a {
+    text-decoration: none;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hamburguer {
+    display: inline;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;margin-left: auto;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    /*ALterar depois para menu em uma janela menor */
+    
+}
