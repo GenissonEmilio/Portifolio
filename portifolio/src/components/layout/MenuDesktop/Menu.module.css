@@ -40,11 +40,3 @@
     cursor: pointer;margin-left: auto;
     border: none;
 }
-
-@media (max-width: 768px) {
-    /*ALterar depois para menu em uma janela menor */
-    
-    .links {
-        display: none;
-    }
-}

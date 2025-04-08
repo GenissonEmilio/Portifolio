@@ -1,13 +1,13 @@
-import Menu from './components/layout/Menu/Menu';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Home from './pages/Home';
+import Header from './components/layout/Header/Header';
 
 const App: React.FC = () => {
 
   return (
     <Router>
-      <Menu />
+      <Header />
 
       <Routes>
         <Route path='/' element={<Home />} />
