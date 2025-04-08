@@ -33,7 +33,7 @@
 }
 
 .hamburguer {
-    display: inline;
+    display: none;
     font-size: 2rem;
     background-color: white;
     color: black;
