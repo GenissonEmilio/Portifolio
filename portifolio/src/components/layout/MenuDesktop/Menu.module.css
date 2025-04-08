@@ -1,12 +1,3 @@
-.menu {
-    display: flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    background-color: white;
-    box-sizing: border-box;
-    position: relative;
-}
-
 .links {
     display: flex;
     list-style: none;   
@@ -30,5 +21,14 @@
     text-decoration: none;
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+}  
 
+@media (max-width: 600px) {
+    .links {
+      display: none;
+    }
+  
+    .hamburguer {
+      display: block;
+    }
+  }

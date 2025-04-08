@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+import styles from "./Mobile.module.css";
 
 const Mobile: React.FC = () => {
     //const size: number = window.innerWidth;
@@ -9,7 +10,7 @@ const Mobile: React.FC = () => {
 
     return (
         <div>
-            <button className="hamburguer">
+            <button className={styles.hamburguer}>
                 <FaBars />
             </button>
         </div>

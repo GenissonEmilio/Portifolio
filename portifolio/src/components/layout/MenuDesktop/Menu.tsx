@@ -5,7 +5,7 @@ const Menu: React.FC = () => {
     const myName: string = "<Genisson Emilio/>";
 
     return (
-        <nav className={styles.menu}>
+        <nav>
             <div className={styles.name}>
                 <Link to="/">{myName}</Link>
             </div>
