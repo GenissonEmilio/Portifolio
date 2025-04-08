@@ -1,14 +1,15 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-import styles from "../MenuDesktop/Menu.module.css";
 
 const Mobile: React.FC = () => {
-    const size: number = window.innerWidth;
-    console.log(size);
+    //const size: number = window.innerWidth;
+    /*if (size <= 500) {
+        
+    }*/
 
     return (
         <div>
-            <button className={styles.hamburguer} >
+            <button className="hamburguer">
                 <FaBars />
             </button>
         </div>

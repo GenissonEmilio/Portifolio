@@ -10,3 +10,22 @@ html, body, #root {
   height: 100%;
   width: 100%;
 }
+
+.hamburguer {
+  display: none;
+  font-size: 2rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;margin-left: auto;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  .links {
+    display: none;
+  }
+
+  .hamburguer {
+    display: block;
+  }
+}
