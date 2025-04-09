@@ -1,0 +1,14 @@
+.hamburguer {
+    display: none;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;margin-left: auto;
+    border: none;
+}
+
+@media (max-width: 500px) {
+    .hamburguer {
+      display: block;
+    }
+  }

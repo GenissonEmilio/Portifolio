@@ -1,19 +1,8 @@
 .menu {
-    display: flex;
+    display: block;
     flex-flow: row nowrap;
     width: 100%;
     background-color: white;
     box-sizing: border-box;
     position: relative;
 }
-
-
-@media (max-width: 600px) {
-    .links {
-      display: none;
-    }
-  
-    .hamburguer {
-      display: block;
-    }
-  }
