@@ -6,3 +6,14 @@
     box-sizing: border-box;
     position: relative;
 }
+
+
+@media (max-width: 600px) {
+    .links {
+      display: none;
+    }
+  
+    .hamburguer {
+      display: block;
+    }
+  }

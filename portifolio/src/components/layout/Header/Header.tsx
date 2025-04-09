@@ -1,7 +1,7 @@
 import React from "react";
-import Mobile from "../../../MenuMobile/Mobile";
 import Menu from "../MenuDesktop/Menu";
 import styles from "./Header.module.css";
+import Mobile from "../MenuMobile/Mobile";
 
 const Header: React.FC = () => {
 
