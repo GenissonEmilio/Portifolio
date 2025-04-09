@@ -4,7 +4,7 @@ const Home: React.FC = () => {
 
     return (
         <div>
-            <h1>Home haha</h1>
+            <h1>Olá, eu sou Genisson Emilio</h1>
         </div>
     )
 }
