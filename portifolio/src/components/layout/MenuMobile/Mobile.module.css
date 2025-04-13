@@ -51,7 +51,7 @@
     .hamburguer {
       display: block;
     }
-  }
+}
 
 @keyframes slideInFromRight {
   0% {
