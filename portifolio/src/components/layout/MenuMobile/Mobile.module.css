@@ -3,8 +3,35 @@
     font-size: 1.5rem;
     background-color: white;
     color: black;
-    cursor: pointer;margin-left: auto;
+    cursor: pointer;
+    margin-left: auto;
     border: none;
+}
+
+.menu {
+  position: absolute;
+  top: 75px;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuOpen {
+  animation: slideInFromRight 0.5s ease forwards;
+}
+
+.menuClose {
+  animation: slideOutFromRight 0.5s ease forwards;
 }
 
 @media (max-width: 500px) {
@@ -12,3 +39,37 @@
       display: block;
     }
   }
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px); /* Começa fora da tela à direita */
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-40px); /* Passa um pouco do ponto final (overshoot) */
+  }
+  70% {
+    transform: translateX(-30px);
+  }
+  80% {
+    transform: translateX(-20px);
+  }
+  90% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(-5px); /* Volta para o lugar normal */
+  }
+}
+
+@keyframes slideOutFromRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
