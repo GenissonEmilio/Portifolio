@@ -56,11 +56,11 @@
 @keyframes slideInFromRight {
   0% {
     opacity: 0;
-    transform: translateX(20px); /* Começa fora da tela à direita */
+    transform: translateX(20px);
   }
   50% {
     opacity: 1;
-    transform: translateX(-40px); /* Passa um pouco do ponto final (overshoot) */
+    transform: translateX(-40px);
   }
   70% {
     transform: translateX(-30px);
@@ -72,7 +72,7 @@
     transform: translateX(-10px);
   }
   100% {
-    transform: translateX(-5px); /* Volta para o lugar normal */
+    transform: translateX(-5px);
   }
 }
 
