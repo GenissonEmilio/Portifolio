@@ -1,11 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
+import { FaXmark } from "react-icons/fa6";
 import styles from "./Mobile.module.css";
 import { Link } from "react-router-dom";
 
 const Mobile: React.FC = () => {
     const [isOpen, setOpen] = useState(false);
     const [shouldRender, setShouldRender] = useState(false);
+    const [rotating, setRotating] = useState(false);
+
+    const handleClick = () => {
+        setRotating(true);
+        setTimeout(() => {
+            setOpen(!isOpen);
+            setRotating(false);
+        }, 250);
+    };
 
     useEffect(() => {
         if (isOpen) {
@@ -18,8 +28,10 @@ const Mobile: React.FC = () => {
 
     return (
         <div>
-            <button className={styles.hamburguer} onClick={() => setOpen(!isOpen)}>
-                <FaBars />
+            <button className={styles.hamburguer} onClick={handleClick}>
+                <span className={`${styles.icon} ${rotating ? styles.rotate : ""}`}>
+                    {isOpen ? <FaXmark /> : <FaBars />}
+                </span>
             </button>
 
             {shouldRender && (
