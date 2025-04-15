@@ -11,3 +11,10 @@ html, body, #root {
   width: 100%;
   color: black
 }
+
+p {
+  font: 20px "Arvo serif"; 
+  color: #333333;
+  font-weight: 400;
+  font-style: normal;
+}

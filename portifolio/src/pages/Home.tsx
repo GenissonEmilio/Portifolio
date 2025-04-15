@@ -1,5 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import MenuOptions from "../components/layout/MenuOptions/MenuOptions";
+import '../App.css';
 
 const Home: React.FC = () => {
 
@@ -7,8 +9,8 @@ const Home: React.FC = () => {
         <div style={{ paddingLeft: '10px'}}>
             <h1 style={{ fontSize: '2rem' }}>
                 Olá, eu sou Genisson Emilio
-                
             </h1>
+
             <TypeAnimation 
                     sequence={[
                         'Desenvolvedor Full-Stack',
@@ -29,9 +31,14 @@ const Home: React.FC = () => {
                     repeat={Infinity}
                     style={{ fontSize: '2rem', display: 'inline-block', color: '#3B82F6' }}
                 />
-                <p style={{ font: '20px Arvo serif', fontWeight: '400', fontStyle: 'normal', color: '#333333'}}>
+                <p>
                     Bem vindo! Sou um desenvolvedor de softwere com experiência em desenvolvimento web. Comecei minha jornada em programação em 2021 e sou apaixonado por aprender a usar novas tecnologias. Estou sempre em busca de aprender novas tecnologia e aprender novas habilidades. 
                 </p>
+
+                <div>
+                    <MenuOptions name="Sobre mim"/>
+                    <p>Meu foco é cbdofifj ifjw jfjf jfeije </p>
+                </div>
         </div>
     )
 }
