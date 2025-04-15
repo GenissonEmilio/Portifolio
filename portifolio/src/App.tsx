@@ -3,6 +3,7 @@ import React from 'react';
 import Home from './pages/Home';
 import Header from './components/layout/Header/Header';
 import './App.css';
+import Footer from './components/layout/Footer/Footer';
 
 const App: React.FC = () => {
 
@@ -13,6 +14,8 @@ const App: React.FC = () => {
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
+
+      <Footer />
     </Router>
   )
 }
