@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import MenuOptions from "../components/layout/MenuOptions/MenuOptions";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import '../App.css';
 import ToolsIcons from "../components/layout/ToolsIcons/ToolsIcons";
 
@@ -50,11 +50,13 @@ const Home: React.FC = () => {
 
                         <br />
 
-                        As tecnologias que mais uso no desenvolvimento:
+                        As tecnologias que mais utilizo no desenvolvimento:
                     </p>
                     <div className="iconBox">
                         <ToolsIcons name="React JS" color="blue" icon={FaReact}/>
                         <ToolsIcons name="Node JS" color="green" icon={FaNodeJs}/>
+                        <ToolsIcons name="HTML" color="#E34F26" icon={FaHtml5}/>
+                        <ToolsIcons name="CSS3" color="#1572B6" icon={FaCss3Alt}/>
                     </div>
                 </div>
         </div>
