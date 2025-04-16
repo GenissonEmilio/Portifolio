@@ -8,17 +8,21 @@ import Footer from './components/layout/Footer/Footer';
 const App: React.FC = () => {
 
   return (
-    <Router>
-      <Header />
+    <div className="container">
+      <Router>
+        <Header />
 
-      <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
+        <main className="content">
+          <Routes>
+            <Route path='/' element={<Home />} />
+          </Routes>
+        </main>
 
-      <Footer />
-    </Router>
+        <Footer />
+      </Router>
+    </div>
   )
 }
 
-export default App
+export default App;
 

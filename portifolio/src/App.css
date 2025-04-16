@@ -12,9 +12,41 @@ html, body, #root {
   color: black
 }
 
+h3 {
+  color: blue;
+}
+
 p {
-  font: 20px "Arvo serif"; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  font: 20px; 
   color: #333333;
   font-weight: 400;
   font-style: normal;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.textLink {
+  padding-left: 5px;
+}
+
+.textLink a {
+  color: rgb(54, 54, 199);
+}
+
+.iconBox {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
