@@ -47,11 +47,10 @@ const Home: React.FC = () => {
                         <span className="textLink">
                             <a href="https://www.ifs.edu.br" target="_blank">IFS - Instituto Federal de Sergipe / SE - Brasil.</a>
                         </span>
-
-                        <br />
-
-                        As tecnologias que mais utilizo no desenvolvimento:
                     </p>
+
+                    <h3>Tecnologias e Ferramentas</h3>
+                    <p>As tecnologias que mais utilizo no desenvolvimento:</p>
                     <div className="iconBox">
                         <ToolsIcons name="React JS" color="blue" icon={FaReact}/>
                         <ToolsIcons name="Node JS" color="green" icon={FaNodeJs}/>
