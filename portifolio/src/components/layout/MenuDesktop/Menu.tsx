@@ -14,8 +14,8 @@ const Menu: React.FC = () => {
             <ul className={styles.links}>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos"></a>Projetos</li>
-                <li><a href="#contato"></a>Contato</li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
 
             <Mobile />

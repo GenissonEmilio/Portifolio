@@ -14,6 +14,6 @@ svg {
     font-size: 2rem;
 }
 
-.react {
-    color: blue;
+.projectName {
+    white-space: nowrap;
 }

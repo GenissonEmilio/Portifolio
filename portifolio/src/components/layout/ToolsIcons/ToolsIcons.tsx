@@ -12,7 +12,7 @@ const ToolsIcons: React.FC<ToolsIcons> = ({ name, color, icon: Icon}) => {
     return (
         <div className={styles.iconContainer}>
             <Icon style={{color: `${color}`}}/>
-            <p>{name}</p>
+            <p className={styles.projectName}>{name}</p>
         </div>
     )
 }
