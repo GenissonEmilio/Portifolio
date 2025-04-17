@@ -1,10 +1,21 @@
 import React from "react";
+import styles from './ProjectBox.module.css';
 
-const ProjectBox: React.FC = () => {
+type ProjectBox = {
+    name: string,
+    description: string,
+}
+
+const ProjectBox: React.FC<ProjectBox> = ({ name, description }) => {
 
     return (
-        <div>
-
+        <div className={styles.projectContainer}>
+            <img src="./././././public/project.png" alt="project image" className={styles.projectIMG} />
+            <div className={styles.projectText}>
+                <h4>{name}</h4>
+                <p>{description}</p>
+                <a href="">Ver mais	&rarr;</a>
+            </div>
         </div>
     )
 }

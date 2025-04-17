@@ -3,6 +3,7 @@ import MenuOptions from "../components/layout/MenuOptions/MenuOptions";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import '../App.css';
 import ToolsIcons from "../components/layout/ToolsIcons/ToolsIcons";
+import ProjectBox from "../components/ProjectCard/ProjectBox/ProjectBox";
 
 const Home: React.FC = () => {
 
@@ -58,9 +59,12 @@ const Home: React.FC = () => {
                     </div>
                 </div>
 
-                <div id="projetos">
+                <div id="projetos" style={{ display: 'flex', flexDirection: 'column' }}>
                     <MenuOptions name="Projetos" />
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam libero laudantium magni necessitatibus ipsam iste officiis, quia excepturi exercitationem? Ratione unde ipsum aut illo, vero asperiores minus aliquid molestiae tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda odio fugiat temporibus fuga explicabo aut consequatur. Labore dicta quam dolorum nisi iste debitis. Ea impedit blanditiis at aspernatur error nobis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, veniam voluptatibus nam illo asperiores voluptatem laborum, debitis totam autem quis eaque, cupiditate beatae est consectetur expedita maiores eius mollitia perferendis?</p>
+                    <h3>O que eu Fiz</h3>
+                    <div>
+                        <ProjectBox name="teste" description="testetandoteste" />
+                    </div>
 
                 </div>
 
