@@ -6,8 +6,12 @@
     padding-top: 10px;
 }
 
+.options h2 {
+    white-space: nowrap;
+}
+
 .linha {
     background-color: blue;
-    width: 70%;
+    width: 90%;
     height: 2px;
 }

@@ -12,10 +12,10 @@ const Menu: React.FC = () => {
             </div>
 
             <ul className={styles.links}>
-                <li><Link to="/" >Home</Link></li>
-                <li><Link to="/sobre">Sobre</Link></li>
-                <li><Link to="/projetos">Projetos</Link></li>
-                <li><Link to="/contato">Contato</Link></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos"></a>Projetos</li>
+                <li><a href="#contato"></a>Contato</li>
             </ul>
 
             <Mobile />

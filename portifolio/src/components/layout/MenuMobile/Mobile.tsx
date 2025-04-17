@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import styles from "./Mobile.module.css";
-import { Link } from "react-router-dom";
 
 const Mobile: React.FC = () => {
     const [isOpen, setOpen] = useState(false);
@@ -37,10 +36,10 @@ const Mobile: React.FC = () => {
             {shouldRender && (
                 <div className={`${styles.menu} ${isOpen? styles.menuOpen : styles.menuClose}`}>
                     <ul>
-                        <li><Link to="/" onClick={() => setOpen(!isOpen)}>Home</Link></li>
-                        <li><Link to="/sobre" onClick={() => setOpen(!isOpen)}>Sobre</Link></li>
-                        <li><Link to="/projetos" onClick={() => setOpen(!isOpen)}>Projetos</Link></li>
-                        <li><Link to="/contato" onClick={() => setOpen(!isOpen)}>Contatos</Link></li>
+                        <li><a href="#home" onClick={() => setOpen(false)}>Home</a></li>
+                        <li><a href="#sobre" onClick={() => setOpen(false)}>Sobre</a></li>
+                        <li><a href="#projetos" onClick={() => setOpen(false)}>Projetos</a></li>
+                        <li><a href="#contato" onClick={() => setOpen(false)}>Contatos</a></li>
                     </ul>
                 </div>
             )}
