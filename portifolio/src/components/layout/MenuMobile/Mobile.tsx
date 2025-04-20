@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { FaXmark } from "react-icons/fa6";
+import { CiMenuBurger } from "react-icons/ci";
+import { AiOutlineClose } from "react-icons/ai"
 import styles from "./Mobile.module.css";
 
 const Mobile: React.FC = () => {
@@ -29,7 +29,7 @@ const Mobile: React.FC = () => {
         <div>
             <button className={styles.hamburguer} onClick={handleClick}>
                 <span className={`${styles.icon} ${rotating ? styles.rotate : ""}`}>
-                    {isOpen ? <FaXmark /> : <FaBars />}
+                    {isOpen ? <AiOutlineClose /> : <CiMenuBurger /> }
                 </span>
             </button>
 
