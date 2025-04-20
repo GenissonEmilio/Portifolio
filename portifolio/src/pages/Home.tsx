@@ -59,12 +59,23 @@ const Home: React.FC = () => {
                     </div>
                 </div>
 
-                <div id="projetos" style={{ display: 'flex', flexDirection: 'column' }}>
+                <div id="projetos">
                     <MenuOptions name="Projetos" />
-                    <h3>O que eu Fiz</h3>
-                    <div>
-                        <ProjectBox name="teste" description="testetandoteste" />
+                    <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>O que eu Fiz</h3>
+
+                    <div className="projectGrid">
+                        <div className="projectContent">
+                            <ProjectBox name="Pizza RPG" description="Um projeto feito 100% em javascript com intuito de treinar todos os conceitos basicos de javascript." />
+                        </div>
+                        <div className="projectContent">
+                            <ProjectBox name="Pizza RPG" description="Um projeto feito 100% em javascript com intuito de treinar todos os conceitos basicos de javascript." />
+                        </div>
+                        <div className="projectContent">
+                            <ProjectBox name="Pizza RPG" description="Um projeto feito 100% em javascript com intuito de treinar todos os conceitos basicos de javascript." />
+                        </div>
+                        
                     </div>
+                    
 
                 </div>
 

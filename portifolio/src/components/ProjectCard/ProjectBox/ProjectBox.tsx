@@ -14,7 +14,7 @@ const ProjectBox: React.FC<ProjectBox> = ({ name, description }) => {
             <div className={styles.projectText}>
                 <h4>{name}</h4>
                 <p>{description}</p>
-                <a href="">Ver mais	&rarr;</a>
+                <a href="https://github.com/GenissonEmilio/Pizza-project.git" target="_blank" >Ver mais	&rarr;</a>
             </div>
         </div>
     )
