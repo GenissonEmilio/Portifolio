@@ -8,7 +8,7 @@ import ProjectBox from "../components/ProjectCard/ProjectBox/ProjectBox";
 const Home: React.FC = () => {
 
     return (
-        <div id="home" style={{ paddingLeft: '5px', paddingTop: '70px', paddingRight: '10px' }}>
+        <div id="home" style={{ padding: '70px 20px 0 20px' }}>
             <h1 style={{ fontSize: '2rem', whiteSpace: 'nowrap' }}>
                 Olá, eu sou Genisson Emilio
             </h1>
