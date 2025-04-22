@@ -4,6 +4,7 @@ import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import '../App.css';
 import ToolsIcons from "../components/layout/ToolsIcons/ToolsIcons";
 import ProjectBox from "../components/ProjectCard/ProjectBox/ProjectBox";
+import ContactForm from "../components/forms/ContactForm";
 
 const Home: React.FC = () => {
 
@@ -81,7 +82,7 @@ const Home: React.FC = () => {
 
                 <div id="contato">
                     <MenuOptions name="Contato" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex quos dicta qui ut? Quia voluptates molestiae eos esse tenetur voluptatum dignissimos dolore cumque! Iure consequatur pariatur ipsam numquam similique! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptates numquam obcaecati quis eaque minus nam perferendis itaque vitae sed. Aperiam enim, voluptates aspernatur eos totam exercitationem quia odio adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ducimus odio consequatur inventore quod sunt, alias aliquam, minus voluptatibus deleniti mollitia iste cupiditate dolor at molestiae explicabo incidunt tempora delectus!</p>
+                    <ContactForm />
                     
                 </div>
         </div>
