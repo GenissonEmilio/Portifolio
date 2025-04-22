@@ -68,6 +68,30 @@ p {
   width: 100%;
 }
 
+.contatoContainer {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.imagemContato {
+  display: none;
+}
+
+.projectGeneralIMG {
+  height: 300px;
+  width: 400px;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .imagemContato {
+    display: block;
+  }
+}
+
 @media (min-width: 501px) {
   .projectGrid {
     grid-template-columns: repeat(2, 1fr);

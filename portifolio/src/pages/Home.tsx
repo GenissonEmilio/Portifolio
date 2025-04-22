@@ -80,9 +80,20 @@ const Home: React.FC = () => {
 
                 </div>
 
-                <div id="contato">
+                <div id="contato" style={{ paddingBottom: '50px' }}>
                     <MenuOptions name="Contato" />
-                    <ContactForm />
+                    <h3>Me contate</h3>
+                    <p style={{ paddingBottom: '50px' }} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum corporis quidem vel, similique assumenda tenetur, ipsam nostrum doloremque deserunt eos perferendis nemo sint. Aliquam praesentium architecto nobis voluptates quibusdam.</p>
+
+                    <div className="contatoContainer">
+                        <div style={{ width: '400px'}}>
+                            <ContactForm />
+                        </div>
+                    
+                        <div className="imagemContato">
+                            <img src="/generalIMG.png" alt="imagem geral" className="projectGeneralIMG" />
+                        </div>
+                    </div>
                     
                 </div>
         </div>
