@@ -10,7 +10,7 @@ const Home: React.FC = () => {
 
     return (
         <div id="home" style={{ padding: '70px 20px 0 20px' }}>
-            <h1 style={{ fontSize: '2rem', whiteSpace: 'nowrap' }}>
+            <h1 style={{ fontSize: '1.5rem', whiteSpace: 'nowrap' }}>
                 Olá, eu sou Genisson Emilio
             </h1>
 
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
                     wrapper="h1"
                     cursor={true}
                     repeat={Infinity}
-                    style={{ fontSize: '2rem', display: 'inline-block', color: '#3B82F6' }}
+                    style={{ fontSize: '1.5rem', display: 'inline-block', color: '#3B82F6' }}
                 />
                 <p>
                     Bem vindo! Sou um desenvolvedor de softwere com experiência em desenvolvimento web. Comecei minha jornada em programação em 2021 e sou apaixonado por aprender a usar novas tecnologias. Estou sempre em busca de aprender novas tecnologia e aprender novas habilidades. 
@@ -69,10 +69,10 @@ const Home: React.FC = () => {
                             <ProjectBox name="Pizza RPG" description="Um projeto feito 100% em javascript, html e css, com intuito de treinar todos os conceitos basicos de javascript." link="https://github.com/GenissonEmilio/Pizza-project.git" />
                         </div>
                         <div className="projectContent">
-                            <ProjectBox name="Portifolio" description="Um portifolio feito em React e typeScript com intuito de treinar e criar um local para disponibilidade dos meus projetos futuros." link="https://github.com/GenissonEmilio/Portifolio.git" />
+                            <ProjectBox name="Portifolio" description="Um portifolio feito em React e typeScript visando treinar e criar um local para disponibilidade dos meus projetos futuros." link="https://github.com/GenissonEmilio/Portifolio.git" />
                         </div>
                         <div className="projectContent">
-                            <ProjectBox name="Pizza RPG" description="Um projeto feito 100% em javascript com intuito de treinar todos os conceitos basicos de javascript." />
+                            <ProjectBox name="Teste" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum corporis quidem vel, similique assumenda tenetur, ipsam nostrum doloremque deserunt eos perferendis nemo sint. Aliquam praesentium architecto nobis voluptates quibusdam." link="https://github.com/GenissonEmilio/Pizza-project.git" />
                         </div>
                         
                     </div>
