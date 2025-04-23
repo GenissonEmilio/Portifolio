@@ -23,7 +23,7 @@ const Home: React.FC = () => {
                         1000,
                         '',
                         500,
-                        'Criador de soluções em softwere',
+                        'Criador de soluções em software',
                         1000,
                         '',
                         500,
