@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import styles from './ToolsIcons.module.css';
 
 type ToolsIcons = {
@@ -10,10 +11,16 @@ type ToolsIcons = {
 const ToolsIcons: React.FC<ToolsIcons> = ({ name, color, icon: Icon}) => {
 
     return (
-        <div className={styles.iconContainer}>
-            <Icon style={{color: `${color}`}}/>
+        <motion.div
+        className={styles.iconContainer}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ amount: 0.3 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        >
+            <Icon style={{ color: `${color}`, fontSize: '2.5rem' }} />
             <p className={styles.projectName}>{name}</p>
-        </div>
+        </motion.div>
     )
 }
 
