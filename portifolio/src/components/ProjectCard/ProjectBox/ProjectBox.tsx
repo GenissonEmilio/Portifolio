@@ -4,9 +4,10 @@ import styles from './ProjectBox.module.css';
 type ProjectBox = {
     name: string,
     description: string,
+    link: string
 }
 
-const ProjectBox: React.FC<ProjectBox> = ({ name, description }) => {
+const ProjectBox: React.FC<ProjectBox> = ({ name, description, link }) => {
 
     return (
         <div className={styles.projectContainer}>
@@ -14,7 +15,7 @@ const ProjectBox: React.FC<ProjectBox> = ({ name, description }) => {
             <div className={styles.projectText}>
                 <h4>{name}</h4>
                 <p>{description}</p>
-                <a href="https://github.com/GenissonEmilio/Pizza-project.git" target="_blank" >Ver mais	&rarr;</a>
+                <a href={link} target="_blank" >Ver mais	&rarr;</a>
             </div>
         </div>
     )
