@@ -50,7 +50,7 @@ p {
 .iconBox {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   padding: 40px 10px 10px 10px;
 }
 
