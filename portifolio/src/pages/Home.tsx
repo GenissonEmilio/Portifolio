@@ -77,13 +77,13 @@ const Home: React.FC = () => {
                     <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>O que eu Fiz</h3>
 
                     <div className="projectGrid">
-                        <div className="projectContent fadeInProject">
+                        <div className="projectContent">
                             <ProjectBox name="Pizza RPG" description="Um projeto feito 100% em javascript, html e css, com intuito de treinar todos os conceitos basicos de javascript." link="https://github.com/GenissonEmilio/Pizza-project.git" />
                         </div>
-                        <div className="projectContent fadeInProject">
+                        <div className="projectContent">
                             <ProjectBox name="Portifolio" description="Um portifolio feito em React e typeScript visando treinar e criar um local para disponibilidade dos meus projetos futuros." link="https://github.com/GenissonEmilio/Portifolio.git" />
                         </div>
-                        <div className="projectContent fadeInProject">
+                        <div className="projectContent">
                             <ProjectBox name="Teste" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum corporis quidem vel, similique assumenda tenetur, ipsam nostrum doloremque deserunt eos perferendis nemo sint. Aliquam praesentium architecto nobis voluptates quibusdam." link="https://github.com/GenissonEmilio/Pizza-project.git" />
                         </div>
                         
@@ -95,7 +95,7 @@ const Home: React.FC = () => {
                 <div id="contato" style={{ paddingBottom: '50px' }}>
                     <MenuOptions name="Contato" />
                     <h3>Me contate</h3>
-                    <p style={{ paddingBottom: '50px' }} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum corporis quidem vel, similique assumenda tenetur, ipsam nostrum doloremque deserunt eos perferendis nemo sint. Aliquam praesentium architecto nobis voluptates quibusdam.</p>
+                    <p style={{ paddingBottom: '50px' }} >Se você gostou do meu trabalho ou quer conversar sobre alguma ideia, estou à disposição! Entre em contato comigo por aqui ou pelas redes abaixo.</p>
 
                     <div className="contatoContainer">
                         <div style={{ width: '400px'}}>

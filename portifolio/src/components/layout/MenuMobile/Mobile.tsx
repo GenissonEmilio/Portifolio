@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { CiMenuBurger } from "react-icons/ci";
-import { AiOutlineClose } from "react-icons/ai"
+//import { CiMenuBurger } from "react-icons/ci";
+//import { AiOutlineClose } from "react-icons/ai"
 import styles from "./Mobile.module.css";
 
 const Mobile: React.FC = () => {
     const [isOpen, setOpen] = useState(false);
     const [shouldRender, setShouldRender] = useState(false);
-    const [rotating, setRotating] = useState(false);
+    //const [rotating, setRotating] = useState(false);
 
     const handleClick = () => {
-        setRotating(true);
+        //setRotating(true);
         setTimeout(() => {
             setOpen(!isOpen);
-            setRotating(false);
+            //setRotating(false);
         }, 250);
     };
 
@@ -28,9 +28,9 @@ const Mobile: React.FC = () => {
     return (
         <div>
             <button className={styles.hamburguer} onClick={handleClick}>
-                <span className={`${styles.icon} ${rotating ? styles.rotate : ""}`}>
-                    {isOpen ? <AiOutlineClose /> : <CiMenuBurger /> }
-                </span>
+                <span className={`${styles.line} ${isOpen ? styles.line1Open : ""}`}></span>
+                <span className={`${styles.line} ${isOpen ? styles.line2Open : ""}`}></span>
+                <span className={`${styles.line} ${isOpen ? styles.line3Open : ""}`}></span>
             </button>
 
             {shouldRender && (
