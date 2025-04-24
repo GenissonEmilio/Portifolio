@@ -29,6 +29,10 @@
   margin: 0;
 }
 
+.menu ul li {
+  padding-bottom: 5px;
+}
+
 .menu ul li a {
   text-decoration: none;
   color: black;
