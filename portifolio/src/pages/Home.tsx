@@ -38,7 +38,7 @@ const Home: React.FC = () => {
                     style={{ fontSize: '1.5rem', display: 'inline-block', color: '#3B82F6' }}
                 />
                 <p>
-                    Bem vindo! Sou um desenvolvedor de softwere com experiência em desenvolvimento web. Comecei minha jornada em programação em 2021 e sou apaixonado por aprender a usar novas tecnologias. Estou sempre em busca de aprender novas tecnologia e aprender novas habilidades. 
+                    Bem vindo! Sou um desenvolvedor de software com experiência em desenvolvimento web. Comecei minha jornada em programação em 2021 e sou apaixonado por aprender a usar novas tecnologias. Estou sempre em busca de aprender novas tecnologia e aprender novas habilidades. 
                 </p>
 
                 <div id="sobre">
