@@ -1,8 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
 import MenuOptions from "../components/layout/MenuOptions/MenuOptions";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiTailwindcss, SiNextdotjs } from "react-icons/si";
-import { FaGitAlt, FaJava, FaPython } from "react-icons/fa6";
+import { SiTypescript, SiJavascript, SiTailwindcss, SiNextdotjs, SiExpress } from "react-icons/si";
+import { FaGitAlt, FaJava, FaPython, FaBootstrap, FaFlutter } from "react-icons/fa6";
 import '../App.css';
 import { GrMysql } from "react-icons/gr";
 import ToolsIcons from "../components/layout/ToolsIcons/ToolsIcons";
@@ -60,8 +60,11 @@ const Home: React.FC = () => {
                         <ToolsIcons name="React JS" color="blue" icon={FaReact}/>
                         <ToolsIcons name="TypeScript" color="#0b57d0" icon={SiTypescript}/>
                         <ToolsIcons name="JavaScript" color="#fdd663" icon={SiJavascript}/>
+                        <ToolsIcons name="Express" color="#000000" icon={SiExpress}/>
                         <ToolsIcons name="Tailwind CSS" color="#7eaaff" icon={SiTailwindcss}/>
                         <ToolsIcons name="Next JS" color="#000000" icon={SiNextdotjs}/>
+                        <ToolsIcons name="Flutter" color="#02569B" icon={FaFlutter}/>
+                        <ToolsIcons name="Bootstrap" color="#000000" icon={FaBootstrap}/>
                         <ToolsIcons name="Java" color="#EA2D2E" icon={FaJava}/>
                         <ToolsIcons name="Python" color="#FFD43B" icon={FaPython}/>
                         <ToolsIcons name="MySQL" color="#0b57d0" icon={GrMysql}/>
