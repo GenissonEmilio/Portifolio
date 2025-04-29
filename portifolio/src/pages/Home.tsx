@@ -87,7 +87,7 @@ const Home: React.FC = () => {
                             <ProjectBox name="Portifolio" description="Um portifolio feito em React e typeScript visando treinar e criar um local para disponibilidade dos meus projetos futuros." link="https://github.com/GenissonEmilio/Portifolio.git" />
                         </div>
                         <div className="projectContent">
-                            <ProjectBox name="Teste" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum corporis quidem vel, similique assumenda tenetur, ipsam nostrum doloremque deserunt eos perferendis nemo sint. Aliquam praesentium architecto nobis voluptates quibusdam." link="https://github.com/GenissonEmilio/Pizza-project.git" />
+                            <ProjectBox name="API com Spring Boot" description="Uma API feita com Spring juntamente com o react." link="https://github.com/GenissonEmilio/API-Spring-Boot.git" />
                         </div>
                         
                     </div>
