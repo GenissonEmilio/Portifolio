@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styles from "./Menu.module.css";
 import Mobile from "../MenuMobile/Mobile";
 
@@ -8,7 +7,7 @@ const Menu: React.FC = () => {
     return (
         <nav>
             <div className={styles.name}>
-                <Link to="/">{myName}</Link>
+                <a href="#home">{myName}</a>
             </div>
 
             <ul className={styles.links}>
