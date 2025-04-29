@@ -14,6 +14,10 @@ html, body, #root {
   overflow-x: hidden;
 }
 
+:target {
+  scroll-margin-top: 60px;
+}
+
 h3 {
   color: blue;
 }
