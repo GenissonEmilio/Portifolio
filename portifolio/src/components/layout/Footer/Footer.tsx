@@ -8,9 +8,9 @@ const Footer: React.FC = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.icons}>
-                <a href="https://www.linkedin.com/in/genisson-emilio"><FaLinkedinIn /></a>
-                <a href="https://github.com/GenissonEmilio"><FaGithub /></a>
-                <a href="https://www.instagram.com/genisson.emilio"><FaInstagram /></a>
+                <a href="https://www.linkedin.com/in/genisson-emilio" target="_blank"><FaLinkedinIn /></a>
+                <a href="https://github.com/GenissonEmilio" target="_blank"><FaGithub /></a>
+                <a href="https://www.instagram.com/genisson.emilio" target="_blank"><FaInstagram /></a>
             </div>
             <div>
                 <p>&copy; 2025 genissondev. Todos os direitos reservados.</p>
