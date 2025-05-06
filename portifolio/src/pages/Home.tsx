@@ -8,6 +8,7 @@ import { GrMysql } from "react-icons/gr";
 import ToolsIcons from "../components/layout/ToolsIcons/ToolsIcons";
 import ProjectBox from "../components/ProjectCard/ProjectBox/ProjectBox";
 import ContactForm from "../components/forms/ContactForm";
+import NotebookCard from "../components/ProjectCard/NotebookCard/NotebookCard";
 
 const Home: React.FC = () => {
 
@@ -104,9 +105,9 @@ const Home: React.FC = () => {
                         <div style={{ width: '400px'}}>
                             <ContactForm />
                         </div>
-                    
-                        <div className="imagemContato">
-                            <img src="/generalIMG.png" alt="imagem geral" className="projectGeneralIMG" />
+
+                        <div>
+                            <NotebookCard />
                         </div>
                     </div>
                     
