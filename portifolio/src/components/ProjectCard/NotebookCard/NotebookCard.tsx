@@ -5,7 +5,7 @@ function NotebookCard() {
   return (
     <Tilt className={styles.notebookContainer}>
       <div className={styles.notebookWrapper}>
-        <img src="/images/notebook.png" alt="Notebook" className={styles.notebookImg} />
+        <img src="/images/notebook.jpg" alt="Notebook" className={styles.notebookImg} />
         <video
           src="/videos/demo.mp4"
           autoPlay

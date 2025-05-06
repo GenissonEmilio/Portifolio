@@ -16,10 +16,10 @@
   
 .notebookVideo {
   position: absolute;
-  top: 9%;
-  left: 15%;
-  width: 70%;
-  height: 65%;
+  top: 5%;
+  left: 10%;
+  width: 80%; /* comprimento do video */
+  height: 75%; /* altura do video */
   border-radius: 8px;
   object-fit: cover;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
