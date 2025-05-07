@@ -81,7 +81,7 @@ p {
   justify-content: space-evenly;
 }
 
-.contatoContent {
+.imagemContato {
   display: none;
 }
 
@@ -109,7 +109,7 @@ p {
 }
 
 @media (min-width: 768px) {
-  .contatoContent {
+  .imagemContato {
     display: block;
   }
 }

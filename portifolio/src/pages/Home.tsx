@@ -106,7 +106,7 @@ const Home: React.FC = () => {
                             <ContactForm />
                         </div>
 
-                        <div className="contatoContent">
+                        <div>
                             <NotebookCard />
                         </div>
                     </div>
