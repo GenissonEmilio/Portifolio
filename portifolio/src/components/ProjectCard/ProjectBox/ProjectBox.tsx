@@ -11,7 +11,7 @@ const ProjectBox: React.FC<ProjectBox> = ({ name, description, link }) => {
 
     return (
         <div className={styles.projectContainer}>
-            <img src="/project.png" alt="project image" className={styles.projectIMG} />
+            <img src="/images/project.png" alt="project image" className={styles.projectIMG} />
             <div className={styles.projectText}>
                 <h4>{name}</h4>
                 <p>{description}</p>
