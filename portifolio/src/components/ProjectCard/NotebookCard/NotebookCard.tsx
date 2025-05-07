@@ -1,20 +1,26 @@
-import Tilt from 'react-parallax-tilt';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Stage } from '@react-three/drei';
 import styles from './NotebookCard.module.css';
+import { NotebookModel } from './NotebookModel';
 
 function NotebookCard() {
   return (
-    <Tilt className={styles.notebookContainer}>
-      <div className={styles.notebookWrapper}>
-        <img src="/images/notebook.jpg" alt="Notebook" className={styles.notebookImg} />
-        <video
-          src="/videos/demo.mp4"
-          autoPlay
-          muted
-          loop
-          className={styles.notebookVideo}
+    <div className={styles.notebookContainer}>
+      <Canvas camera={{ position: [0, 0, 5], fov: 35 }}>
+        <Stage environment="city" intensity={0.6}>
+          <NotebookModel path="/models/notebook.glb" />
+        </Stage>
+        {/* Efeito limitado de rotação */}
+        <OrbitControls
+          enablePan={false}
+          enableZoom={false}
+          maxPolarAngle={Math.PI / 2.2}
+          minPolarAngle={Math.PI / 2.5}
+          maxAzimuthAngle={Math.PI / 6}
+          minAzimuthAngle={-Math.PI / 6}
         />
-      </div>
-    </Tilt>
+      </Canvas>
+    </div>
   );
 }
 

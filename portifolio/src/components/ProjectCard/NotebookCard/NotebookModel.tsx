@@ -1,7 +1,7 @@
-import { useGLTF } from '@react-three/drei'
+import { useGLTF, useVideoTexture } from '@react-three/drei'
 import { useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
-import { Group } from 'three'
+import { Group, Mesh, MeshStandardMaterial } from 'three'
 
 interface Props {
   path: string
@@ -10,10 +10,17 @@ interface Props {
 export function NotebookModel({ path }: Props) {
   const modelRef = useRef<Group>(null!)
   const gltf = useGLTF(path)
+  const videoTexture = useVideoTexture('/videos/demo.mp4')
 
-  // opcional: rotação lenta
+  // Aplica vídeo na malha "Screen"
+  const screenMesh = gltf.scene.getObjectByName('Screen')
+
+  if (screenMesh && screenMesh instanceof Mesh) {
+    screenMesh.material = new MeshStandardMaterial({ map: videoTexture })
+  }
+
   useFrame(() => {
-    modelRef.current.rotation.y += 0.003
+    // Sem rotação automática
   })
 
   return <primitive ref={modelRef} object={gltf.scene} scale={2.5} />
