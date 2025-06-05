@@ -3,6 +3,7 @@ import MenuOptions from "../components/layout/MenuOptions/MenuOptions";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiTailwindcss, SiNextdotjs, SiExpress } from "react-icons/si";
 import { FaGitAlt, FaJava, FaPython, FaBootstrap, FaFlutter } from "react-icons/fa6";
+import { BiLogoSpringBoot } from "react-icons/bi";
 import '../App.css';
 import { GrMysql } from "react-icons/gr";
 import ToolsIcons from "../components/layout/ToolsIcons/ToolsIcons";
@@ -73,6 +74,7 @@ const Home: React.FC = () => {
                         <ToolsIcons name="Node JS" color="green" icon={FaNodeJs}/>
                         <ToolsIcons name="HTML" color="#E34F26" icon={FaHtml5}/>
                         <ToolsIcons name="CSS3" color="#1572B6" icon={FaCss3Alt}/>
+                        <ToolsIcons name="Spring Boot" color="#6DB33F" icon={BiLogoSpringBoot}/>
                     </div>
                 </div>
 
