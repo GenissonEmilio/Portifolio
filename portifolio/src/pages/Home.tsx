@@ -92,6 +92,9 @@ const Home: React.FC = () => {
                         <div className="projectContent">
                             <ProjectBox name="API com Spring Boot" description="Uma API feita com Spring juntamente com o react." link="https://github.com/GenissonEmilio/API-Spring-Boot.git" />
                         </div>
+                        <div className="projectContent">
+                            <ProjectBox name="Site para Atletica" description="Um site feito para a atletica, utilizando React e TypeScript." link="https://github.com/GenissonEmilio/AASI-Repository.git" />
+                        </div>
                         
                     </div>
                     
