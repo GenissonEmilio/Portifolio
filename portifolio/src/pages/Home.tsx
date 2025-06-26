@@ -4,6 +4,7 @@ import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiTailwindcss, SiNextdotjs, SiExpress, SiNestjs } from "react-icons/si";
 import { FaGitAlt, FaJava, FaPython, FaBootstrap, FaFlutter } from "react-icons/fa6";
 import { BiLogoSpringBoot } from "react-icons/bi";
+import { TbBrandReactNative } from "react-icons/tb";
 import '../App.css';
 import { GrMysql } from "react-icons/gr";
 import ToolsIcons from "../components/layout/ToolsIcons/ToolsIcons";
@@ -76,6 +77,7 @@ const Home: React.FC = () => {
                         <ToolsIcons name="CSS3" color="#1572B6" icon={FaCss3Alt}/>
                         <ToolsIcons name="Spring Boot" color="#6DB33F" icon={BiLogoSpringBoot}/>
                         <ToolsIcons name="Nest JS" color="#E0234E" icon={SiNestjs}/>
+                        <ToolsIcons name="React Native" color="blue" icon={TbBrandReactNative}/>
                     </div>
                 </div>
 
