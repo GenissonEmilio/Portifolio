@@ -3,6 +3,7 @@ import MenuOptions from "../components/layout/MenuOptions/MenuOptions";
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiTailwindcss, SiNextdotjs, SiExpress, SiNestjs } from "react-icons/si";
 import { FaGitAlt, FaJava, FaPython, FaBootstrap, FaFlutter } from "react-icons/fa6";
+import { SiSharp } from "react-icons/si";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { TbBrandReactNative } from "react-icons/tb";
 import '../App.css';
@@ -78,6 +79,7 @@ const Home: React.FC = () => {
                         <ToolsIcons name="Spring Boot" color="#6DB33F" icon={BiLogoSpringBoot}/>
                         <ToolsIcons name="Nest JS" color="#E0234E" icon={SiNestjs}/>
                         <ToolsIcons name="React Native" color="blue" icon={TbBrandReactNative}/>
+                        <ToolsIcons name="C#" color="#239120" icon={SiSharp}/>
                     </div>
                 </div>
 
